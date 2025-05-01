@@ -60,7 +60,7 @@ function loadQuestion() {
         const btn = document.createElement("button");
         btn.classList.add("option-btn");
         btn.textContent = option;
-        btn.addEventListener("click", () => selectAnswer(index, truecd ))
+        btn.addEventListener("click", () => selectAnswer(index, true ))
         optionsEl.appendChild(btn);
 
     });
